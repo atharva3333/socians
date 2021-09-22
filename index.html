@@ -1,0 +1,273 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<nav>
+			<div class="nav-left">
+				<img src="images/Socians.png" class="logo">
+				<ul>
+					<li>
+						<img src="images/notification.png">
+					</li>
+					<li>
+						<img src="images/inbox.png">
+					</li>
+					<li>
+						<img src="images/video.png">
+					</li>
+					<li>
+						<button type="button" class="signup-btn">Sign In</button>
+					</li>
+					<li>
+						<button type="button" class="signup-btn">Sign Up</button>
+					</li>
+				</ul>
+			</div>
+			<div class="nav-right">
+				<div class="search-box">
+					<img src="images/search.png">
+					<input type="text" placeholder="Search">
+				</div>
+				<div class="nav-user-icon online" onclick="settingsMenuToggle();">
+					<img src="images/Shinchan1.jpg">
+				</div>
+			</div>
+
+			<div class="settings-menu">
+				<div id="dark-btn">
+					<span></span>
+				</div>
+				<div class="settings-menu-inner">
+					<div class="user-profile">
+						<img src="images/Shinchan1.jpg">
+						<div>
+							<p>Shinchan</p>
+							<a href="#">See Your Profile</a>
+						</div>
+					</div>
+					<hr>
+					<div class="user-profile">
+						<img src="images/feedback.png">
+						<div>
+							<p>Give Feedback</p>
+							<a href="#">Help us to improve the new design</a>
+						</div>
+					</div>
+					<hr>
+
+					<div class="settings-links">
+						<img src="images/setting.png" class="settings-icon">
+						<a href="#">Settings & Privacy</a>
+						<img src="images/arrow.png" width="10px">
+					</div>
+					<div class="settings-links">
+						<img src="images/help.png" class="settings-icon">
+						<a href="#">Help & Support</a>
+						<img src="images/arrow.png" width="10px">
+					</div>
+					<div class="settings-links">
+						<img src="images/display.png" class="settings-icon">
+						<a href="#">Display & Accessibility</a>
+						<img src="images/arrow.png" width="10px">
+					</div>
+					<div class="settings-links">
+						<img src="images/logout.png" class="settings-icon">
+						<a href="#">Logout</a>
+						<img src="images/arrow.png" width="10px">
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div class="left-sidebar">
+				<div class="imp-links">
+					<a href="#">
+						<img src="images/news.png">
+						Latest Trends
+					</a>
+					<a href="#">
+						<img src="images/friends.png">
+						Connections
+					</a>
+					<a href="#">
+						<img src="images/group.png">
+						Coding Gangs
+					</a>
+					<a href="#">
+						<img src="images/marketplace.png">
+						Premium Courses
+					</a>
+					<a href="#">
+						<img src="images/watch.png">
+						Watch Experts
+					</a>
+					<a href="#">
+						See More
+					</a>
+				</div>
+				<div class="shortcut-links">
+					<p>Your Shortcuts</p>
+					<a href="#">
+						<img src="images/shortcut-1.png">
+						Web Developers
+					</a>
+					<a href="#">
+						<img src="images/shortcut-2.png">
+						Web Design Course
+					</a>
+					<a href="#">
+						<img src="images/shortcut-3.png">
+						Full Stack Development
+					</a>
+					<a href="#">
+						<img src="images/shortcut-4.png">
+						Website Experts
+					</a>
+				</div>
+			</div>
+			<div class="main-content">
+				
+				<div class="write-post-container">
+					<div class="user-profile">
+						<img src="images/Shinchan1.jpg">
+						<div>
+							<p>Shinchan</p>
+							<small>
+								Public
+								<i class="fas fa fa-caret-down"></i>
+							</small>
+						</div>
+					</div>
+					<div class="post-input-container">
+						<textarea rows="3" placeholder="What's on your mind, Shinchan?"></textarea>
+						<div class="add-post-links">
+							<a href="#">
+								<img src="images/upload.png">
+								Add Post
+							</a>
+							
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="post-container">
+					<div class="post-row">
+						<div class="user-profile">
+							<img src="images/Shinchan1.jpg">
+							<div>
+								<p>Shinchan</p>
+								<span>June 21 2021, 13:40</span>
+							</div>
+						</div>
+						<a href="#">
+							<i class="fa fa-ellipsis-v"></i>
+						</a>
+					</div>
+					
+					<p class="post-text">Hello! my Name is Shinchan I am 5 years old.
+						<a href="#">#Shinchan</a>
+						<a href="#">#youtube</a>
+					</p>
+					<img src="images/Shinchan Gang.jpg" class="post-img">
+					<div class="post-row">
+						<div class="activity-icons">
+							<div>
+								<img src="images/like.png">
+								120
+							</div>
+							<div>
+								<img src="images/comments.png">
+								19
+							</div>
+							<div>
+								<img src="images/share.png">
+								120
+							</div>
+						</div>
+						<div class="post-profile-icon">
+							<img src="images/profile-pic.png">
+							<i class="fas fa fa-caret-down"></i>
+						</div>
+					</div>
+				</div>
+				
+				<button type="button" class="sign-up-btn">Load More</button>
+			</div>
+			<div class="right-sidebar">
+				<div class="sidebar-title">
+					<h4>Events</h4>
+					<a href="#">See All</a>
+				</div>
+				<div class="event">
+					<div class="left-event">
+						<h3>19</h3>
+						<span>March</span>
+					</div>
+					<div class="right-event">
+						<h4>Codechef Contest</h4>
+						<p>
+							<i class="fa fa-map-marker"></i>
+							Khudke Gharpe
+						</p>
+						<a href="#">More Info</a>
+					</div>
+				</div>
+				<div class="event">
+					<div class="left-event">
+						<h3>22</h3>
+						<span>April</span>
+					</div>
+					<div class="right-event">
+						<h4>Codeforces Long contest</h4>
+						<p>
+							<i class="fa fa-map-marker"></i>
+							Khudke Gharpe
+						</p>
+						<a href="#">More Info</a>
+					</div>
+				</div>
+
+				
+
+				<div class="sidebar-title">
+					<h4>Conversation</h4>
+					<a href="#">Hide Chat</a>
+				</div>
+				<div class="online-list">
+					<div class="online">
+						<img src="images/Shinchan.jpg">
+					</div>
+					<p>Shin Chan</p>
+				</div>
+				<div class="online-list">
+					<div class="online">
+						<img src="images/Doreamon.png">
+					</div>
+					<p>Doreamon</p>
+				</div>
+				<div class="online-list">
+					<div class="online">
+						<img src="images/Nobita.jpg">
+					</div>
+					<p>Nobita</p>
+				</div>
+				<div class="online-list">
+					<div class="online">
+						<img src="images/Shizuka.png">
+					</div>
+					<p>Shizuka</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<p>Copyright 2021- Atharva Deshpande</p>
+		</div>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
